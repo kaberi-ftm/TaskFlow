@@ -14,6 +14,7 @@ class TaskDueReminder extends Notification
     public function __construct($task)
     {
         $this->task = $task;
+        
     }
 
     public function via(object $notifiable): array
