@@ -50,7 +50,6 @@
             <p class="text-4xl font-extrabold text-slate-900 mt-3">{{ $completedTasks }}</p>
         </div>
     </div>
-    
     <div class="bg-white rounded-2xl shadow-lg shadow-slate-200/50 p-6 border border-slate-100 flex flex-col justify-between relative overflow-hidden group">
         <div class="absolute -right-4 -top-4 w-24 h-24 bg-amber-50 rounded-full group-hover:scale-150 transition-transform duration-500 ease-in-out z-0"></div>
         <div class="relative z-10">
