@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Auth;
 use Carbon\Carbon;
 use App\Models\ActivityLog;
 
+
 class DashboardController extends Controller
 {
     public function index()

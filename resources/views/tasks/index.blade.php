@@ -12,7 +12,6 @@
     </a>
 </div>
 
-
 <div class="bg-white p-6 rounded-2xl shadow-lg shadow-slate-200/50 border border-slate-100 mb-8">
     <form method="GET" action="{{ route('tasks.index') }}" class="flex flex-col md:flex-row gap-4 items-end">
         <div class="w-full md:w-1/3">
