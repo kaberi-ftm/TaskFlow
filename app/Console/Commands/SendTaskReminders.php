@@ -7,9 +7,11 @@ use App\Notifications\TaskDueReminder;
 use Carbon\Carbon;
 use Illuminate\Console\Command;
 
+
 class SendTaskReminders extends Command
 {
     protected $signature = 'send:task-reminders';
+    
     protected $description = 'Send notifications for tasks due within 24 hours';
 
     public function handle()
