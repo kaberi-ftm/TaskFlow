@@ -6,6 +6,7 @@ use App\Models\Task;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
+
 class TaskController extends Controller
 {
     private array $allowedSubjects = ['Math', 'Science', 'History', 'Literature', 'Computer Science', 'Art', 'Other'];
@@ -23,6 +24,7 @@ class TaskController extends Controller
         return view('tasks.index', compact('tasks'));
     }
 
+    
     public function create()
     {
         $subjects = $this->allowedSubjects;

@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Task extends Model
 {
+    
     use HasFactory;
 
     protected $fillable = [
@@ -23,6 +24,7 @@ class Task extends Model
     {
         return $this->belongsTo(User::class);
     }
+    
 
     public function activityLogs()
     {
