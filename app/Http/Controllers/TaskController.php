@@ -24,6 +24,7 @@ class TaskController extends Controller
         return view('tasks.index', compact('tasks'));
     }
 
+    
     public function create()
     {
         $subjects = $this->allowedSubjects;
