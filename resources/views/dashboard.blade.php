@@ -18,7 +18,6 @@
 </div>
 @endif
 
-
 <div class="flex items-center justify-between mb-8">
     <div>
         <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">Dashboard</h2>
