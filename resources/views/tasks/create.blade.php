@@ -13,6 +13,7 @@
         </a>
     </div>
 
+    
     <div class="bg-white rounded-2xl shadow-xl shadow-slate-200/50 border border-slate-100 overflow-hidden">
         <form method="POST" action="{{ route('tasks.store') }}" class="p-8">
             @csrf
