@@ -20,6 +20,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        \App\Models\Task::observe(\App\Observers\TaskObserver::class);
     }
 }
